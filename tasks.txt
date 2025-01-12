@@ -1,0 +1,19 @@
+1. Linear Regression  
+2. Logistic Regression  
+3. K-Nearest Neighbors (KNN)  
+4. Naive Bayes  
+5. Decision Trees  
+6. Support Vector Machines (SVM)  
+7. K-Means Clustering  
+8. Principal Component Analysis (PCA)  
+9. Ensemble Methods  
+   - Random Forests  
+   - Gradient Boosting  
+10. Linear Discriminant Analysis (LDA)  
+11. Neural Networks (NNs)  
+12. Convolutional Neural Networks (CNNs)  
+13. Recurrent Neural Networks (RNNs)  
+14. Clustering Algorithms  
+   - DBSCAN  
+   - Hierarchical Clustering  
+15. Reinforcement Learning (Optional)
