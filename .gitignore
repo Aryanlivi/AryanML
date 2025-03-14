@@ -1,2 +1,5 @@
 aryanml_env/
 *.code-workspace
+data/
+*.csv
+.env
