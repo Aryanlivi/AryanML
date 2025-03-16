@@ -11,7 +11,6 @@ class LinearRegression:
         self.bias=0
         for _ in range(self.n_iters):
             y_pred = np.dot(X, self.weight) + self.bias
-            
             #Transpose needed to multiply matrices
             dw=(-2/n_samples)*np.dot(X.T,(Y-(y_pred)))
             db=(-2/n_samples)*np.sum((Y-y_pred))
