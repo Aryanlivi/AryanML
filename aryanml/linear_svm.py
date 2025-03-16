@@ -10,9 +10,9 @@ class LinearSVM:
     def fit(self,X,y):
         n_samples,n_features=X.shape
         self.weight=np.zeros(n_features)
-        self.b=0
+        self.bias=0
         yi=np.where(y<=0,-1,1)
-        for _ in self.n_iters:
+        for _ in range(self.n_iters):
             for idx,xi in enumerate(X):
                 fx=np.dot(xi,self.weight)-self.bias
                 condition=yi[idx]*fx

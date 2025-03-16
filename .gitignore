@@ -3,3 +3,22 @@ aryanml_env/
 data/
 *.csv
 .env
+
+# Ignore build directory
+build/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore local environment configuration
+.env
+docs/
+examples/
+aryanml.egg-info/
+dist/
+AryanML.code-workspace
